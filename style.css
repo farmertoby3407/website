@@ -27,7 +27,7 @@ h1 {
 }
 
 .header {
-    color: lightgray;
+    color: white;
     background-color: mediumseagreen;
     padding: 10px;
     margin-left: 25px;
@@ -83,13 +83,13 @@ p {
 }
 
 a.nav:link {
-    color: lightgray;
+    color: white;
 }
 a.nav:visited {
-    color: lightgray;
+    color: white;
 }
 a.nav:hover {
-    color: darkgray;
+    color: lightgray;
 }
 a.nav:active {
     color: gray;
