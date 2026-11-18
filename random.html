@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="stylesheet" href="style.css">
+<title>random things</title>
+<link rel="apple-touch-icon" sizes="180x180" href="/icons/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/icons/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/icons/favicon-16x16.png">
+<link rel="manifest" href="/icons/site.webmanifest">
+</head>
+
+<script>
+    function getRandomInt(min, max) {
+  const minCeiled = Math.ceil(min);
+  const maxFloored = Math.floor(max);
+  return Math.floor(Math.random() * (maxFloored - minCeiled) + minCeiled); // the maximum is exclusive and the minimum is inclusive
+}
+</script>
+
+<body>
+<div class="block">
+
+<div class="header">
+<a href="/index.html">
+<img src="/images/furries/tobert.png" onmouseover="this.src='/images/furries/tobert-pet.png';var audio;if(getRandomInt(0, 100) == 67){audio = new Audio('/sounds/rahh.mp3');}else{audio = new Audio('/sounds/mrow.mp3');}audio.play();" onmouseout="this.src='/images/furries/tobert.png';" style="width:70px;float:left;padding-right:20px;filter:drop-shadow(4px 4px seagreen);" alt="kitty face" title="go back home">
+</a>
+<a href="/index.html" class="nav" style="text-decoration-line:none;" title="go back home">
+<h1>tobert.men</h1>
+</a>
+<span class="head">[<a href="/pictures.html" class="nav">pictures</a>][<a href="/furries.html" class="nav">my drawings</a>][<a href="/buttons.html" class="nav">buttons</a>][<a href="/music-rec.html" class="nav">my favorite music</a>]<br>[➥ <a href="https://calschwick.net" class="nav">calschwick.net</a>][➥ <a href="https://ahx2.cc" class="nav">ahx2.cc</a>]</span>
+<div style="clear:both;"></div>
+</div>
+<h2>random stuff</h2>
+<div style="display:block;padding:20px;">
+<img src="images/lost-tobey.jpg" alt="lost dog, if found please call 104.20.9.2">
+<img src="images/tobey-ipv6.jpeg" alt="average ipv6 user">
+</div>
+</body>
+</div>
+</html>
